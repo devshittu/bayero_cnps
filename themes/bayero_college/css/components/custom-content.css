@@ -1,0 +1,33 @@
+/* ------------------ Custom Content Element ------------------ */
+#navbar-main .nav-link {
+    padding: 0px 30px;
+    line-height: 48px;
+}
+.dept-grid-item-gradient{
+    background: #06beb6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background: linear-gradient(to right, #48b1bf, #167779); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+    display: block;
+    padding: 1em;
+    line-height: 2em;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid #dbe7ce;
+    min-height: 6.5em;
+    font-size: larger;
+}
+
+.dept-grid-item-gradient:hover { color: white;}
+.dept-grid-item-gradient.inactive{
+    background: #eee;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #f5f5f5, #eee);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top,#f5f5f5,#eee);
+    color: #666;
+    border-color: #CCCCCC;
+}
+
+.dept-grid-item-gradient.inactive:hover { color: black;}

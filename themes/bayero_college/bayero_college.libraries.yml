@@ -1,0 +1,64 @@
+bootstrap:
+  js:
+    /libraries/popper/popper.min.js: {}
+    /libraries/bootstrap/js/bootstrap.min.js: {}
+  css:
+    component:
+      /libraries/bootstrap/css/bootstrap.min.css: {}
+
+bootstrap_cdn:
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}
+    //stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js: {}
+  css:
+    component:
+      //stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css: {}
+color.preview:
+  version: VERSION
+  css:
+    theme:
+      color/preview.css: {}
+  js:
+    color/preview.js: {}
+  dependencies:
+    - color/drupal.color
+
+didact:
+  license:
+    name: SIL Open Font License 1.1
+    url: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  css:
+    theme:
+      //fonts.googleapis.com/css2?family=Didact+Gothic&display=swap: { type: external }
+      css/styles.css: {}
+
+source-sans-pro:
+  license:
+    name: SIL Open Font License 1.1
+    url: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700: { type: external }
+      css/styles.css: {}
+
+karla:
+  license:
+    name: SIL Open Font License 1.1
+    url: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  css:
+    theme:
+      //fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap: { type: external }
+      css/styles.css: {}
+
+global-css:
+  version: VERSION
+  css:
+    component:
+      css/components/affix.css: { weight: 1000 }
+      css/components/header.css: { weight: 1000 }
+      css/components/sidebar.css: { weight: 1000 }
+      css/components/custom-content.css: { weight: 1000 }
+    theme:
+      css/elements.css: {}
+      css/layout.css: { weight: 2000 }
+      css/print.css: { media: print }

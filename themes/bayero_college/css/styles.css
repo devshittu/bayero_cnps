@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+/*body {font-family: 'Didact Gothic', sans-serif;}*/
+body {font-family: 'Karla',Helvetica,Arial,sans-serif !important;}
+
+.active-tailer{color: forestgreen;}
+
+
+.container-fluid{max-width: 100em !important;}
